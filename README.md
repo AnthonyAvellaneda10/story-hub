@@ -61,8 +61,8 @@ Para correr el backend de manera local, sigue los siguientes pasos:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/storyhub-backend.git
-   cd storyhub-backend
+   git clone https://github.com/AnthonyAvellaneda10/story-hub.git
+   cd story-hub
 
 2. Configura las variables de entorno dentro del `application.properties`.
 
@@ -71,5 +71,5 @@ Para correr el backend de manera local, sigue los siguientes pasos:
 ./mvnw spring-boot:run
 ```
 
-4. La aplicación estará disponible en `http://localhost:8080` y podrás probarla desde Postman.
+4. La aplicación estará disponible en `http://localhost:8080/**` y podrás probarla con las rutas específicas de la API a través de Postman.
 
